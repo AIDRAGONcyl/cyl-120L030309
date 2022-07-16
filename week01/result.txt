@@ -1,0 +1,312 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 14:46 ?        00:00:02 /sbin/init splash
+root           2       0  0 14:46 ?        00:00:00 [kthreadd]
+root           3       2  0 14:46 ?        00:00:00 [rcu_gp]
+root           4       2  0 14:46 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 14:46 ?        00:00:00 [netns]
+root           7       2  0 14:46 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 14:46 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 14:46 ?        00:00:00 [rcu_tasks_rude_]
+root          12       2  0 14:46 ?        00:00:00 [rcu_tasks_trace]
+root          13       2  0 14:46 ?        00:00:00 [ksoftirqd/0]
+root          14       2  0 14:46 ?        00:00:03 [rcu_sched]
+root          15       2  0 14:46 ?        00:00:00 [migration/0]
+root          16       2  0 14:46 ?        00:00:00 [idle_inject/0]
+root          17       2  0 14:46 ?        00:00:00 [cpuhp/0]
+root          18       2  0 14:46 ?        00:00:00 [cpuhp/1]
+root          19       2  0 14:46 ?        00:00:00 [idle_inject/1]
+root          20       2  0 14:46 ?        00:00:01 [migration/1]
+root          21       2  0 14:46 ?        00:00:00 [ksoftirqd/1]
+root          23       2  0 14:46 ?        00:00:00 [kworker/1:0H-kblockd]
+root          24       2  0 14:46 ?        00:00:00 [cpuhp/2]
+root          25       2  0 14:46 ?        00:00:00 [idle_inject/2]
+root          26       2  0 14:46 ?        00:00:01 [migration/2]
+root          27       2  0 14:46 ?        00:00:00 [ksoftirqd/2]
+root          29       2  0 14:46 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          30       2  0 14:46 ?        00:00:00 [cpuhp/3]
+root          31       2  0 14:46 ?        00:00:00 [idle_inject/3]
+root          32       2  0 14:46 ?        00:00:01 [migration/3]
+root          33       2  0 14:46 ?        00:00:00 [ksoftirqd/3]
+root          35       2  0 14:46 ?        00:00:00 [kworker/3:0H-events_highpri]
+root          36       2  0 14:46 ?        00:00:00 [kdevtmpfs]
+root          37       2  0 14:46 ?        00:00:00 [inet_frag_wq]
+root          38       2  0 14:46 ?        00:00:00 [kauditd]
+root          41       2  0 14:46 ?        00:00:00 [kworker/1:2-events]
+root          42       2  0 14:46 ?        00:00:00 [khungtaskd]
+root          43       2  0 14:46 ?        00:00:00 [oom_reaper]
+root          44       2  0 14:46 ?        00:00:00 [writeback]
+root          45       2  0 14:46 ?        00:00:00 [kcompactd0]
+root          46       2  0 14:46 ?        00:00:00 [ksmd]
+root          47       2  0 14:46 ?        00:00:00 [khugepaged]
+root          94       2  0 14:46 ?        00:00:00 [kintegrityd]
+root          95       2  0 14:46 ?        00:00:00 [kblockd]
+root          96       2  0 14:46 ?        00:00:00 [blkcg_punt_bio]
+root          97       2  0 14:46 ?        00:00:00 [tpm_dev_wq]
+root          98       2  0 14:46 ?        00:00:00 [ata_sff]
+root          99       2  0 14:46 ?        00:00:00 [md]
+root         100       2  0 14:46 ?        00:00:00 [edac-poller]
+root         101       2  0 14:46 ?        00:00:00 [devfreq_wq]
+root         102       2  0 14:46 ?        00:00:00 [watchdogd]
+root         105       2  0 14:46 ?        00:00:00 [kworker/2:1H-kblockd]
+root         107       2  0 14:46 ?        00:00:00 [kswapd0]
+root         108       2  0 14:46 ?        00:00:00 [ecryptfs-kthrea]
+root         110       2  0 14:46 ?        00:00:00 [kthrotld]
+root         111       2  0 14:46 ?        00:00:00 [irq/24-pciehp]
+root         112       2  0 14:46 ?        00:00:00 [irq/25-pciehp]
+root         113       2  0 14:46 ?        00:00:00 [irq/26-pciehp]
+root         114       2  0 14:46 ?        00:00:00 [irq/27-pciehp]
+root         115       2  0 14:46 ?        00:00:00 [irq/28-pciehp]
+root         116       2  0 14:46 ?        00:00:00 [irq/29-pciehp]
+root         117       2  0 14:46 ?        00:00:00 [irq/30-pciehp]
+root         118       2  0 14:46 ?        00:00:00 [irq/31-pciehp]
+root         119       2  0 14:46 ?        00:00:00 [irq/32-pciehp]
+root         120       2  0 14:46 ?        00:00:00 [irq/33-pciehp]
+root         121       2  0 14:46 ?        00:00:00 [irq/34-pciehp]
+root         122       2  0 14:46 ?        00:00:00 [irq/35-pciehp]
+root         123       2  0 14:46 ?        00:00:00 [irq/36-pciehp]
+root         124       2  0 14:46 ?        00:00:00 [irq/37-pciehp]
+root         125       2  0 14:46 ?        00:00:00 [irq/38-pciehp]
+root         126       2  0 14:46 ?        00:00:00 [irq/39-pciehp]
+root         127       2  0 14:46 ?        00:00:00 [irq/40-pciehp]
+root         128       2  0 14:46 ?        00:00:00 [irq/41-pciehp]
+root         129       2  0 14:46 ?        00:00:00 [irq/42-pciehp]
+root         130       2  0 14:46 ?        00:00:00 [irq/43-pciehp]
+root         131       2  0 14:46 ?        00:00:00 [irq/44-pciehp]
+root         132       2  0 14:46 ?        00:00:00 [irq/45-pciehp]
+root         133       2  0 14:46 ?        00:00:00 [irq/46-pciehp]
+root         134       2  0 14:46 ?        00:00:00 [irq/47-pciehp]
+root         135       2  0 14:46 ?        00:00:00 [irq/48-pciehp]
+root         136       2  0 14:46 ?        00:00:00 [irq/49-pciehp]
+root         137       2  0 14:46 ?        00:00:00 [irq/50-pciehp]
+root         138       2  0 14:46 ?        00:00:00 [irq/51-pciehp]
+root         139       2  0 14:46 ?        00:00:00 [irq/52-pciehp]
+root         140       2  0 14:46 ?        00:00:00 [irq/53-pciehp]
+root         141       2  0 14:46 ?        00:00:00 [irq/54-pciehp]
+root         142       2  0 14:46 ?        00:00:00 [irq/55-pciehp]
+root         143       2  0 14:46 ?        00:00:00 [acpi_thermal_pm]
+root         145       2  0 14:46 ?        00:00:00 [scsi_eh_0]
+root         146       2  0 14:46 ?        00:00:00 [scsi_tmf_0]
+root         147       2  0 14:46 ?        00:00:00 [scsi_eh_1]
+root         148       2  0 14:46 ?        00:00:00 [scsi_tmf_1]
+root         150       2  0 14:46 ?        00:00:00 [vfio-irqfd-clea]
+root         151       2  0 14:46 ?        00:00:00 [mld]
+root         152       2  0 14:46 ?        00:00:00 [kworker/3:1H-kblockd]
+root         153       2  0 14:46 ?        00:00:00 [ipv6_addrconf]
+root         165       2  0 14:46 ?        00:00:00 [kstrp]
+root         168       2  0 14:46 ?        00:00:00 [zswap-shrink]
+root         170       2  0 14:46 ?        00:00:00 [kworker/u257:0]
+root         175       2  0 14:46 ?        00:00:00 [charger_manager]
+root         223       2  0 14:46 ?        00:00:00 [kworker/0:1H-kblockd]
+root         225       2  0 14:46 ?        00:00:00 [mpt_poll_0]
+root         226       2  0 14:46 ?        00:00:00 [mpt/0]
+root         227       2  0 14:46 ?        00:00:00 [scsi_eh_2]
+root         228       2  0 14:46 ?        00:00:00 [scsi_tmf_2]
+root         229       2  0 14:46 ?        00:00:00 [scsi_eh_3]
+root         230       2  0 14:46 ?        00:00:00 [scsi_tmf_3]
+root         231       2  0 14:46 ?        00:00:00 [scsi_eh_4]
+root         232       2  0 14:46 ?        00:00:00 [scsi_tmf_4]
+root         233       2  0 14:46 ?        00:00:00 [scsi_eh_5]
+root         234       2  0 14:46 ?        00:00:00 [scsi_tmf_5]
+root         235       2  0 14:46 ?        00:00:00 [scsi_eh_6]
+root         236       2  0 14:46 ?        00:00:00 [scsi_tmf_6]
+root         237       2  0 14:46 ?        00:00:00 [scsi_eh_7]
+root         238       2  0 14:46 ?        00:00:00 [scsi_tmf_7]
+root         239       2  0 14:46 ?        00:00:00 [scsi_eh_8]
+root         240       2  0 14:46 ?        00:00:00 [scsi_tmf_8]
+root         241       2  0 14:46 ?        00:00:00 [scsi_eh_9]
+root         242       2  0 14:46 ?        00:00:00 [scsi_tmf_9]
+root         243       2  0 14:46 ?        00:00:00 [scsi_eh_10]
+root         244       2  0 14:46 ?        00:00:00 [scsi_tmf_10]
+root         245       2  0 14:46 ?        00:00:00 [scsi_eh_11]
+root         246       2  0 14:46 ?        00:00:00 [scsi_tmf_11]
+root         247       2  0 14:46 ?        00:00:00 [scsi_eh_12]
+root         248       2  0 14:46 ?        00:00:00 [scsi_tmf_12]
+root         249       2  0 14:46 ?        00:00:00 [scsi_eh_13]
+root         250       2  0 14:46 ?        00:00:00 [scsi_tmf_13]
+root         251       2  0 14:46 ?        00:00:00 [scsi_eh_14]
+root         252       2  0 14:46 ?        00:00:00 [scsi_tmf_14]
+root         253       2  0 14:46 ?        00:00:00 [scsi_eh_15]
+root         254       2  0 14:46 ?        00:00:00 [scsi_tmf_15]
+root         255       2  0 14:46 ?        00:00:00 [scsi_eh_16]
+root         256       2  0 14:46 ?        00:00:00 [scsi_tmf_16]
+root         257       2  0 14:46 ?        00:00:00 [scsi_eh_17]
+root         258       2  0 14:46 ?        00:00:00 [scsi_tmf_17]
+root         259       2  0 14:46 ?        00:00:00 [scsi_eh_18]
+root         260       2  0 14:46 ?        00:00:00 [scsi_tmf_18]
+root         261       2  0 14:46 ?        00:00:00 [scsi_eh_19]
+root         262       2  0 14:46 ?        00:00:00 [scsi_tmf_19]
+root         263       2  0 14:46 ?        00:00:00 [scsi_eh_20]
+root         264       2  0 14:46 ?        00:00:00 [scsi_tmf_20]
+root         265       2  0 14:46 ?        00:00:00 [scsi_eh_21]
+root         266       2  0 14:46 ?        00:00:00 [scsi_tmf_21]
+root         267       2  0 14:46 ?        00:00:00 [scsi_eh_22]
+root         268       2  0 14:46 ?        00:00:00 [scsi_tmf_22]
+root         269       2  0 14:46 ?        00:00:00 [scsi_eh_23]
+root         270       2  0 14:46 ?        00:00:00 [scsi_tmf_23]
+root         271       2  0 14:46 ?        00:00:00 [scsi_eh_24]
+root         272       2  0 14:46 ?        00:00:00 [scsi_tmf_24]
+root         273       2  0 14:46 ?        00:00:00 [scsi_eh_25]
+root         274       2  0 14:46 ?        00:00:00 [scsi_tmf_25]
+root         275       2  0 14:46 ?        00:00:00 [scsi_eh_26]
+root         276       2  0 14:46 ?        00:00:00 [scsi_tmf_26]
+root         277       2  0 14:46 ?        00:00:00 [scsi_eh_27]
+root         278       2  0 14:46 ?        00:00:00 [scsi_tmf_27]
+root         279       2  0 14:46 ?        00:00:00 [scsi_eh_28]
+root         280       2  0 14:46 ?        00:00:00 [scsi_tmf_28]
+root         281       2  0 14:46 ?        00:00:00 [scsi_eh_29]
+root         282       2  0 14:46 ?        00:00:00 [scsi_tmf_29]
+root         283       2  0 14:46 ?        00:00:00 [scsi_eh_30]
+root         284       2  0 14:46 ?        00:00:00 [scsi_tmf_30]
+root         285       2  0 14:46 ?        00:00:00 [scsi_eh_31]
+root         286       2  0 14:46 ?        00:00:00 [scsi_tmf_31]
+root         301       2  0 14:46 ?        00:00:00 [kworker/u256:20-events_unbound]
+root         313       2  0 14:46 ?        00:00:00 [scsi_eh_32]
+root         314       2  0 14:46 ?        00:00:00 [scsi_tmf_32]
+root         315       2  0 14:46 ?        00:00:00 [kworker/1:1H-kblockd]
+root         337       2  0 14:46 ?        00:00:00 [jbd2/sda5-8]
+root         338       2  0 14:46 ?        00:00:00 [ext4-rsv-conver]
+root         375       1  0 14:46 ?        00:00:01 /lib/systemd/systemd-journald
+root         401       1  0 14:46 ?        00:00:00 /lib/systemd/systemd-udevd
+root         407       2  0 14:46 ?        00:00:00 [ttm_swap]
+root         408       2  0 14:46 ?        00:00:01 [irq/16-vmwgfx]
+root         410       2  0 14:46 ?        00:00:00 [card0-crtc0]
+root         411       2  0 14:46 ?        00:00:00 [card0-crtc1]
+root         412       2  0 14:46 ?        00:00:00 [card0-crtc2]
+root         413       2  0 14:46 ?        00:00:00 [card0-crtc3]
+root         414       2  0 14:46 ?        00:00:00 [card0-crtc4]
+root         415       2  0 14:46 ?        00:00:00 [card0-crtc5]
+root         416       2  0 14:46 ?        00:00:00 [card0-crtc6]
+root         417       2  0 14:46 ?        00:00:00 [card0-crtc7]
+root         419       2  0 14:46 ?        00:00:00 [kworker/1:3-events]
+root         432       1  0 14:46 ?        00:00:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+root         468       2  0 14:46 ?        00:00:01 [kworker/0:11-events]
+root         508       2  0 14:46 ?        00:00:00 [kworker/2:3-events]
+root         666       2  0 14:46 ?        00:00:00 [cryptd]
+systemd+     756       1  0 14:46 ?        00:00:02 /lib/systemd/systemd-resolved
+systemd+     757       1  0 14:46 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         825       1  0 14:46 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root         826       1  0 14:46 ?        00:00:00 /usr/sbin/acpid
+avahi        829       1  0 14:46 ?        00:00:00 avahi-daemon: running [dragong-virtual-machine.local]
+root         831       1  0 14:46 ?        00:00:00 /usr/sbin/cron -f
+root         833       1  0 14:46 ?        00:00:00 /usr/sbin/cupsd -l
+message+     835       1  0 14:46 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         836       1  0 14:46 ?        00:00:02 /usr/sbin/NetworkManager --no-daemon
+root         846       1  0 14:46 ?        00:00:00 /usr/sbin/irqbalance --foreground
+root         847       1  0 14:46 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         848       1  0 14:46 ?        00:00:01 /usr/lib/policykit-1/polkitd --no-debug
+syslog       856       1  0 14:46 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         860       1  0 14:46 ?        00:00:00 /usr/libexec/switcheroo-control
+root         864       1  0 14:46 ?        00:00:00 /lib/systemd/systemd-logind
+root         866       1  0 14:46 ?        00:00:00 /usr/lib/udisks2/udisksd
+root         868       1  0 14:46 ?        00:00:00 /usr/bin/VGAuthService
+root         870       1  0 14:46 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+lp           877     833  0 14:46 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+root         878       1  0 14:46 ?        00:00:02 /usr/bin/vmtoolsd
+avahi        895     829  0 14:46 ?        00:00:00 avahi-daemon: chroot helper
+root         907       2  0 14:46 ?        00:00:00 [kworker/2:4-events]
+root         909       1  0 14:46 ?        00:00:00 /usr/sbin/ModemManager
+root         912       1  0 14:46 ?        00:00:00 /usr/sbin/cups-browsed
+root         920       1  0 14:46 ?        00:00:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root         943       1  0 14:46 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         947       1  0 14:46 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         948     920  0 14:46 ?        00:00:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root         951       1  0 14:46 ?        00:00:00 /usr/sbin/gdm3
+rtkit       1020       1  0 14:46 ?        00:00:00 /usr/libexec/rtkit-daemon
+root        1141       1  0 14:46 ?        00:00:00 /usr/lib/upower/upowerd
+whoopsie    1149       1  0 14:46 ?        00:00:00 /usr/bin/whoopsie -f
+kernoops    1159       1  0 14:46 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops    1169       1  0 14:46 ?        00:00:00 /usr/sbin/kerneloops
+colord      1396       1  0 14:46 ?        00:00:00 /usr/libexec/colord
+root        1435     951  0 14:47 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+dragong     1451       1  0 14:47 ?        00:00:00 /lib/systemd/systemd --user
+dragong     1452    1451  0 14:47 ?        00:00:00 (sd-pam)
+dragong     1457    1451  0 14:47 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+dragong     1459    1451  1 14:47 ?        00:00:27 /usr/libexec/tracker-miner-fs
+dragong     1462    1451  0 14:47 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+dragong     1467    1451  0 14:47 ?        00:00:00 /usr/libexec/gvfsd
+dragong     1470       1  0 14:47 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+dragong     1488    1451  0 14:47 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+dragong     1495    1451  0 14:47 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+dragong     1502    1451  0 14:47 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+dragong     1506    1451  0 14:47 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+dragong     1511    1451  0 14:47 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+dragong     1515    1451  0 14:47 ?        00:00:00 /usr/libexec/goa-daemon
+dragong     1524    1451  0 14:47 ?        00:00:00 /usr/libexec/goa-identity-service
+dragong     1529    1451  0 14:47 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+dragong     1536    1435  0 14:47 tty2     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+dragong     1539    1536  1 14:47 tty2     00:00:41 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+dragong     1553    1536  0 14:47 tty2     00:00:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+dragong     1621    1553  0 14:47 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+dragong     1638    1451  0 14:47 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+dragong     1643    1638  0 14:47 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+dragong     1649    1451  0 14:47 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+dragong     1656    1451  0 14:47 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+dragong     1669    1451  2 14:47 ?        00:00:53 /usr/bin/gnome-shell
+dragong     1689    1669  0 14:47 ?        00:00:05 ibus-daemon --panel disable --xim
+dragong     1693    1689  0 14:47 ?        00:00:00 /usr/libexec/ibus-dconf
+dragong     1694    1689  0 14:47 ?        00:00:02 /usr/libexec/ibus-extension-gtk3
+dragong     1697    1451  0 14:47 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+dragong     1701    1451  0 14:47 ?        00:00:00 /usr/libexec/ibus-portal
+dragong     1711    1451  0 14:47 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+dragong     1715    1451  0 14:47 ?        00:00:00 /usr/libexec/xdg-permission-store
+dragong     1720    1451  0 14:47 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+dragong     1728    1451  0 14:47 ?        00:00:00 /usr/libexec/evolution-source-registry
+dragong     1735    1451  0 14:47 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+dragong     1745    1451  0 14:47 ?        00:00:00 /usr/libexec/dconf-service
+dragong     1748    1451  0 14:47 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+dragong     1759    1451  0 14:47 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+dragong     1774    1467  0 14:47 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+dragong     1790    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+dragong     1805    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-color
+dragong     1812    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-datetime
+dragong     1818    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-housekeeping
+dragong     1820    1451  0 14:47 ?        00:00:03 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+dragong     1822    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-keyboard
+dragong     1823    1656  0 14:47 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+dragong     1824    1656  0 14:47 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+dragong     1826    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-media-keys
+dragong     1834    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-power
+dragong     1842    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-print-notifications
+dragong     1845    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-rfkill
+dragong     1846    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+dragong     1847    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-sharing
+dragong     1848    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-smartcard
+dragong     1852    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-sound
+dragong     1865    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-usb-protection
+dragong     1866    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-wacom
+dragong     1868    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-wwan
+dragong     1870    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-xsettings
+dragong     1900    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-printer
+dragong     1939    1689  0 14:47 ?        00:00:01 /usr/lib/ibus/ibus-engine-libpinyin --ibus
+dragong     1983    1669  1 14:47 ?        00:00:32 /usr/share/code/code --unity-launch --enable-crashpad
+dragong     1987    1983  0 14:47 ?        00:00:00 /usr/share/code/code --type=zygote --no-zygote-sandbox --enable-crashpad --enable-crashpad
+dragong     1988    1983  0 14:47 ?        00:00:00 /usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad
+dragong     1990    1988  0 14:47 ?        00:00:00 /usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad
+dragong     2004    1451  0 14:47 ?        00:00:00 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/dragong/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=75672ff7-b5f2-495c-bf08-c7167d217252&iid=75672ff7-b5f2-495c-bf08-c7167d217252&sid=75672ff7-b5f2-495c-bf08-c7167d217252 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.69.1 --annotation=prod=Electron --annotation=ver=18.3.5 --initial-client-fd=45 --shared-client-connection
+dragong     2017    1451  0 14:47 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+dragong     2023    1987  2 14:47 ?        00:01:13 /usr/share/code/code --type=gpu-process --disable-color-correct-rendering --enable-crashpad --crashpad-handler-pid=2004 --enable-crash-reporter=5f4833ad-014f-4775-a590-256997a31385,no_channel --user-data-dir=/home/dragong/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,16230473227674580015,8145463436855797592,131072 --disable-features=SpareRendererForSitePerProcess
+dragong     2024    1451  0 14:47 ?        00:00:00 /usr/libexec/xdg-document-portal
+dragong     2036    1451  0 14:47 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+dragong     2043    1983  0 14:47 ?        00:00:00 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=2004 --enable-crash-reporter=5f4833ad-014f-4775-a590-256997a31385,no_channel --user-data-dir=/home/dragong/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16230473227674580015,8145463436855797592,131072 --disable-features=SpareRendererForSitePerProcess --enable-crashpad
+dragong     2060    1983  8 14:47 ?        00:03:28 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=2004 --enable-crash-reporter=5f4833ad-014f-4775-a590-256997a31385,no_channel --user-data-dir=/home/dragong/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --enable-blink-features=HighlightAPI --disable-color-correct-rendering --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --launch-time-ticks=63510085 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16230473227674580015,8145463436855797592,131072 --disable-features=SpareRendererForSitePerProcess --vscode-window-config=vscode:aada32cb-5fef-4ef5-8960-82ef71a8ca8a --enable-crashpad
+dragong     2061    2023  0 14:47 ?        00:00:00 /usr/share/code/code --type=broker
+dragong     2098    1983  0 14:47 ?        00:00:08 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=2004 --enable-crash-reporter=5f4833ad-014f-4775-a590-256997a31385,no_channel --user-data-dir=/home/dragong/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --disable-color-correct-rendering --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=66365609 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16230473227674580015,8145463436855797592,131072 --disable-features=SpareRendererForSitePerProcess --vscode-window-config=vscode:0eb073c8-ef3a-44ce-be4a-e0807c2150b1 --vscode-window-kind=shared-process --enable-crashpad
+dragong     2099    1983  0 14:47 ?        00:00:13 /usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+dragong     2125    2098  0 14:47 ?        00:00:08 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost --logsPath /home/dragong/.config/Code/logs/20220716T144736
+dragong     2160    2098  0 14:47 ?        00:00:00 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+dragong     2183    2099  0 14:47 ?        00:00:03 /home/dragong/.vscode/extensions/ms-vscode.cpptools-1.10.8-linux-x64/bin/cpptools
+dragong     2374    1451  0 14:48 ?        00:00:00 /usr/libexec/gvfsd-metadata
+dragong     2377    1656  0 14:48 ?        00:00:00 update-notifier
+root        4219       2  0 15:01 ?        00:00:00 [kworker/3:2-mm_percpu_wq]
+root        4326       2  0 15:07 ?        00:00:00 [kworker/3:1-events]
+dragong     4522    1451  0 15:13 ?        00:00:00 /home/dragong/.vscode/extensions/ms-vscode.cpptools-1.10.8-linux-x64/bin/cpptools-srv 2183 {D30C0D0A-14C3-423A-9A38-24FBAAC06BD1}
+root        4740       2  0 15:16 ?        00:00:00 [kworker/u256:1-events_unbound]
+root        4741       2  0 15:16 ?        00:00:00 [kworker/0:0]
+dragong     5058    2125  0 15:23 pts/0    00:00:00 /usr/bin/bash
+dragong     5097    2125  0 15:23 pts/1    00:00:00 /usr/bin/bash
+root        5467       2  0 15:27 ?        00:00:00 [kworker/u256:0-ext4-rsv-conversion]
+dragong     5486    5058  0 15:28 pts/0    00:00:00 /home/dragong/Desktop/cyl-120L030309/week01/helloworld
+dragong     5535    2125  0 15:29 ?        00:00:00 /bin/sh -c "/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh" 5097
+dragong     5536    5535  0 15:29 ?        00:00:00 /bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 5097
+dragong     5537    5097  0 15:29 pts/1    00:00:00 sh kill.sh
+dragong     5539    5537  0 15:29 pts/1    00:00:00 ps -ef
