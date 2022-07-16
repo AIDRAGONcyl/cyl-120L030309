@@ -31,7 +31,7 @@ root          35       2  0 14:46 ?        00:00:00 [kworker/3:0H-events_highpri
 root          36       2  0 14:46 ?        00:00:00 [kdevtmpfs]
 root          37       2  0 14:46 ?        00:00:00 [inet_frag_wq]
 root          38       2  0 14:46 ?        00:00:00 [kauditd]
-root          41       2  0 14:46 ?        00:00:00 [kworker/1:2-events]
+root          41       2  0 14:46 ?        00:00:00 [kworker/1:2-rcu_par_gp]
 root          42       2  0 14:46 ?        00:00:00 [khungtaskd]
 root          43       2  0 14:46 ?        00:00:00 [oom_reaper]
 root          44       2  0 14:46 ?        00:00:00 [writeback]
@@ -159,13 +159,13 @@ root         283       2  0 14:46 ?        00:00:00 [scsi_eh_30]
 root         284       2  0 14:46 ?        00:00:00 [scsi_tmf_30]
 root         285       2  0 14:46 ?        00:00:00 [scsi_eh_31]
 root         286       2  0 14:46 ?        00:00:00 [scsi_tmf_31]
-root         301       2  0 14:46 ?        00:00:00 [kworker/u256:20-events_unbound]
+root         301       2  0 14:46 ?        00:00:00 [kworker/u256:20-ext4-rsv-conversion]
 root         313       2  0 14:46 ?        00:00:00 [scsi_eh_32]
 root         314       2  0 14:46 ?        00:00:00 [scsi_tmf_32]
 root         315       2  0 14:46 ?        00:00:00 [kworker/1:1H-kblockd]
 root         337       2  0 14:46 ?        00:00:00 [jbd2/sda5-8]
 root         338       2  0 14:46 ?        00:00:00 [ext4-rsv-conver]
-root         375       1  0 14:46 ?        00:00:01 /lib/systemd/systemd-journald
+root         375       1  0 14:46 ?        00:00:02 /lib/systemd/systemd-journald
 root         401       1  0 14:46 ?        00:00:00 /lib/systemd/systemd-udevd
 root         407       2  0 14:46 ?        00:00:00 [ttm_swap]
 root         408       2  0 14:46 ?        00:00:01 [irq/16-vmwgfx]
@@ -180,17 +180,17 @@ root         417       2  0 14:46 ?        00:00:00 [card0-crtc7]
 root         419       2  0 14:46 ?        00:00:00 [kworker/1:3-events]
 root         432       1  0 14:46 ?        00:00:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
 root         468       2  0 14:46 ?        00:00:01 [kworker/0:11-events]
-root         508       2  0 14:46 ?        00:00:00 [kworker/2:3-events]
+root         508       2  0 14:46 ?        00:00:00 [kworker/2:3-rcu_par_gp]
 root         666       2  0 14:46 ?        00:00:00 [cryptd]
 systemd+     756       1  0 14:46 ?        00:00:02 /lib/systemd/systemd-resolved
 systemd+     757       1  0 14:46 ?        00:00:00 /lib/systemd/systemd-timesyncd
 root         825       1  0 14:46 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
 root         826       1  0 14:46 ?        00:00:00 /usr/sbin/acpid
-avahi        829       1  0 14:46 ?        00:00:00 avahi-daemon: running [dragong-virtual-machine.local]
+avahi        829       1  0 14:46 ?        00:00:03 avahi-daemon: running [dragong-virtual-machine.local]
 root         831       1  0 14:46 ?        00:00:00 /usr/sbin/cron -f
 root         833       1  0 14:46 ?        00:00:00 /usr/sbin/cupsd -l
-message+     835       1  0 14:46 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
-root         836       1  0 14:46 ?        00:00:02 /usr/sbin/NetworkManager --no-daemon
+message+     835       1  0 14:46 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         836       1  0 14:46 ?        00:00:07 /usr/sbin/NetworkManager --no-daemon
 root         846       1  0 14:46 ?        00:00:00 /usr/sbin/irqbalance --foreground
 root         847       1  0 14:46 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
 root         848       1  0 14:46 ?        00:00:01 /usr/lib/policykit-1/polkitd --no-debug
@@ -201,9 +201,9 @@ root         866       1  0 14:46 ?        00:00:00 /usr/lib/udisks2/udisksd
 root         868       1  0 14:46 ?        00:00:00 /usr/bin/VGAuthService
 root         870       1  0 14:46 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
 lp           877     833  0 14:46 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
-root         878       1  0 14:46 ?        00:00:02 /usr/bin/vmtoolsd
+root         878       1  0 14:46 ?        00:00:03 /usr/bin/vmtoolsd
 avahi        895     829  0 14:46 ?        00:00:00 avahi-daemon: chroot helper
-root         907       2  0 14:46 ?        00:00:00 [kworker/2:4-events]
+root         907       2  0 14:46 ?        00:00:00 [kworker/2:4-rcu_par_gp]
 root         909       1  0 14:46 ?        00:00:00 /usr/sbin/ModemManager
 root         912       1  0 14:46 ?        00:00:00 /usr/sbin/cups-browsed
 root         920       1  0 14:46 ?        00:00:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
@@ -221,7 +221,7 @@ root        1435     951  0 14:47 ?        00:00:00 gdm-session-worker [pam/gdm-
 dragong     1451       1  0 14:47 ?        00:00:00 /lib/systemd/systemd --user
 dragong     1452    1451  0 14:47 ?        00:00:00 (sd-pam)
 dragong     1457    1451  0 14:47 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
-dragong     1459    1451  1 14:47 ?        00:00:27 /usr/libexec/tracker-miner-fs
+dragong     1459    1451  0 14:47 ?        00:00:27 /usr/libexec/tracker-miner-fs
 dragong     1462    1451  0 14:47 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
 dragong     1467    1451  0 14:47 ?        00:00:00 /usr/libexec/gvfsd
 dragong     1470       1  0 14:47 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
@@ -234,17 +234,17 @@ dragong     1515    1451  0 14:47 ?        00:00:00 /usr/libexec/goa-daemon
 dragong     1524    1451  0 14:47 ?        00:00:00 /usr/libexec/goa-identity-service
 dragong     1529    1451  0 14:47 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
 dragong     1536    1435  0 14:47 tty2     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
-dragong     1539    1536  1 14:47 tty2     00:00:41 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+dragong     1539    1536  1 14:47 tty2     00:00:53 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
 dragong     1553    1536  0 14:47 tty2     00:00:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
 dragong     1621    1553  0 14:47 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
 dragong     1638    1451  0 14:47 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
 dragong     1643    1638  0 14:47 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
 dragong     1649    1451  0 14:47 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
 dragong     1656    1451  0 14:47 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
-dragong     1669    1451  2 14:47 ?        00:00:53 /usr/bin/gnome-shell
+dragong     1669    1451  2 14:47 ?        00:01:07 /usr/bin/gnome-shell
 dragong     1689    1669  0 14:47 ?        00:00:05 ibus-daemon --panel disable --xim
 dragong     1693    1689  0 14:47 ?        00:00:00 /usr/libexec/ibus-dconf
-dragong     1694    1689  0 14:47 ?        00:00:02 /usr/libexec/ibus-extension-gtk3
+dragong     1694    1689  0 14:47 ?        00:00:03 /usr/libexec/ibus-extension-gtk3
 dragong     1697    1451  0 14:47 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
 dragong     1701    1451  0 14:47 ?        00:00:00 /usr/libexec/ibus-portal
 dragong     1711    1451  0 14:47 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
@@ -278,35 +278,50 @@ dragong     1868    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-wwan
 dragong     1870    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-xsettings
 dragong     1900    1451  0 14:47 ?        00:00:00 /usr/libexec/gsd-printer
 dragong     1939    1689  0 14:47 ?        00:00:01 /usr/lib/ibus/ibus-engine-libpinyin --ibus
-dragong     1983    1669  1 14:47 ?        00:00:32 /usr/share/code/code --unity-launch --enable-crashpad
+dragong     1983    1669  1 14:47 ?        00:00:36 /usr/share/code/code --unity-launch --enable-crashpad
 dragong     1987    1983  0 14:47 ?        00:00:00 /usr/share/code/code --type=zygote --no-zygote-sandbox --enable-crashpad --enable-crashpad
 dragong     1988    1983  0 14:47 ?        00:00:00 /usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad
 dragong     1990    1988  0 14:47 ?        00:00:00 /usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad
 dragong     2004    1451  0 14:47 ?        00:00:00 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/dragong/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=75672ff7-b5f2-495c-bf08-c7167d217252&iid=75672ff7-b5f2-495c-bf08-c7167d217252&sid=75672ff7-b5f2-495c-bf08-c7167d217252 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.69.1 --annotation=prod=Electron --annotation=ver=18.3.5 --initial-client-fd=45 --shared-client-connection
 dragong     2017    1451  0 14:47 ?        00:00:00 /usr/libexec/xdg-desktop-portal
-dragong     2023    1987  2 14:47 ?        00:01:13 /usr/share/code/code --type=gpu-process --disable-color-correct-rendering --enable-crashpad --crashpad-handler-pid=2004 --enable-crash-reporter=5f4833ad-014f-4775-a590-256997a31385,no_channel --user-data-dir=/home/dragong/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,16230473227674580015,8145463436855797592,131072 --disable-features=SpareRendererForSitePerProcess
+dragong     2023    1987  3 14:47 ?        00:01:27 /usr/share/code/code --type=gpu-process --disable-color-correct-rendering --enable-crashpad --crashpad-handler-pid=2004 --enable-crash-reporter=5f4833ad-014f-4775-a590-256997a31385,no_channel --user-data-dir=/home/dragong/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,16230473227674580015,8145463436855797592,131072 --disable-features=SpareRendererForSitePerProcess
 dragong     2024    1451  0 14:47 ?        00:00:00 /usr/libexec/xdg-document-portal
 dragong     2036    1451  0 14:47 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
 dragong     2043    1983  0 14:47 ?        00:00:00 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=2004 --enable-crash-reporter=5f4833ad-014f-4775-a590-256997a31385,no_channel --user-data-dir=/home/dragong/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16230473227674580015,8145463436855797592,131072 --disable-features=SpareRendererForSitePerProcess --enable-crashpad
-dragong     2060    1983  8 14:47 ?        00:03:28 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=2004 --enable-crash-reporter=5f4833ad-014f-4775-a590-256997a31385,no_channel --user-data-dir=/home/dragong/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --enable-blink-features=HighlightAPI --disable-color-correct-rendering --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --launch-time-ticks=63510085 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16230473227674580015,8145463436855797592,131072 --disable-features=SpareRendererForSitePerProcess --vscode-window-config=vscode:aada32cb-5fef-4ef5-8960-82ef71a8ca8a --enable-crashpad
+dragong     2060    1983  8 14:47 ?        00:03:56 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=2004 --enable-crash-reporter=5f4833ad-014f-4775-a590-256997a31385,no_channel --user-data-dir=/home/dragong/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --enable-blink-features=HighlightAPI --disable-color-correct-rendering --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --launch-time-ticks=63510085 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16230473227674580015,8145463436855797592,131072 --disable-features=SpareRendererForSitePerProcess --vscode-window-config=vscode:aada32cb-5fef-4ef5-8960-82ef71a8ca8a --enable-crashpad
 dragong     2061    2023  0 14:47 ?        00:00:00 /usr/share/code/code --type=broker
-dragong     2098    1983  0 14:47 ?        00:00:08 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=2004 --enable-crash-reporter=5f4833ad-014f-4775-a590-256997a31385,no_channel --user-data-dir=/home/dragong/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --disable-color-correct-rendering --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=66365609 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16230473227674580015,8145463436855797592,131072 --disable-features=SpareRendererForSitePerProcess --vscode-window-config=vscode:0eb073c8-ef3a-44ce-be4a-e0807c2150b1 --vscode-window-kind=shared-process --enable-crashpad
-dragong     2099    1983  0 14:47 ?        00:00:13 /usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
-dragong     2125    2098  0 14:47 ?        00:00:08 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost --logsPath /home/dragong/.config/Code/logs/20220716T144736
+dragong     2098    1983  0 14:47 ?        00:00:09 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=2004 --enable-crash-reporter=5f4833ad-014f-4775-a590-256997a31385,no_channel --user-data-dir=/home/dragong/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --disable-color-correct-rendering --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=66365609 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,16230473227674580015,8145463436855797592,131072 --disable-features=SpareRendererForSitePerProcess --vscode-window-config=vscode:0eb073c8-ef3a-44ce-be4a-e0807c2150b1 --vscode-window-kind=shared-process --enable-crashpad
+dragong     2099    1983  0 14:47 ?        00:00:14 /usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+dragong     2125    2098  0 14:47 ?        00:00:09 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost --logsPath /home/dragong/.config/Code/logs/20220716T144736
 dragong     2160    2098  0 14:47 ?        00:00:00 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
 dragong     2183    2099  0 14:47 ?        00:00:03 /home/dragong/.vscode/extensions/ms-vscode.cpptools-1.10.8-linux-x64/bin/cpptools
 dragong     2374    1451  0 14:48 ?        00:00:00 /usr/libexec/gvfsd-metadata
 dragong     2377    1656  0 14:48 ?        00:00:00 update-notifier
-root        4219       2  0 15:01 ?        00:00:00 [kworker/3:2-mm_percpu_wq]
-root        4326       2  0 15:07 ?        00:00:00 [kworker/3:1-events]
+root        4219       2  0 15:01 ?        00:00:00 [kworker/3:2-events]
+root        4326       2  0 15:07 ?        00:00:00 [kworker/3:1-cgroup_destroy]
 dragong     4522    1451  0 15:13 ?        00:00:00 /home/dragong/.vscode/extensions/ms-vscode.cpptools-1.10.8-linux-x64/bin/cpptools-srv 2183 {D30C0D0A-14C3-423A-9A38-24FBAAC06BD1}
 root        4740       2  0 15:16 ?        00:00:00 [kworker/u256:1-events_unbound]
-root        4741       2  0 15:16 ?        00:00:00 [kworker/0:0]
+root        4741       2  0 15:16 ?        00:00:00 [kworker/0:0-rcu_par_gp]
 dragong     5058    2125  0 15:23 pts/0    00:00:00 /usr/bin/bash
 dragong     5097    2125  0 15:23 pts/1    00:00:00 /usr/bin/bash
 root        5467       2  0 15:27 ?        00:00:00 [kworker/u256:0-ext4-rsv-conversion]
-dragong     5486    5058  0 15:28 pts/0    00:00:00 /home/dragong/Desktop/cyl-120L030309/week01/helloworld
-dragong     5535    2125  0 15:29 ?        00:00:00 /bin/sh -c "/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh" 5097
-dragong     5536    5535  0 15:29 ?        00:00:00 /bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 5097
-dragong     5537    5097  0 15:29 pts/1    00:00:00 sh kill.sh
-dragong     5539    5537  0 15:29 pts/1    00:00:00 ps -ef
+root        5667       2  0 15:31 ?        00:00:00 [kworker/2:0-rcu_par_gp]
+root        5668       2  0 15:31 ?        00:00:00 [kworker/2:1-mm_percpu_wq]
+root        5687       2  0 15:31 ?        00:00:00 [kworker/0:1-events]
+root        5814       2  0 15:31 ?        00:00:00 [kworker/1:0-events]
+root        5877       2  0 15:31 ?        00:00:00 [kworker/3:0-events]
+dragong     5970    1470  0 15:32 ?        00:00:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+dragong     6005    1451 19 15:32 ?        00:00:18 /usr/lib/firefox/firefox -new-window
+dragong     6059    6005  0 15:32 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -parentBuildID 20220623063721 -prefsLen 30484 -prefMapSize 217695 -appDir /usr/lib/firefox/browser 6005 true socket
+dragong     6112    6005  0 15:32 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 30560 -prefMapSize 217695 -jsInitLen 277276 -parentBuildID 20220623063721 -appDir /usr/lib/firefox/browser 6005 true tab
+dragong     6152    6005  0 15:32 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 35313 -prefMapSize 217695 -jsInitLen 277276 -parentBuildID 20220623063721 -appDir /usr/lib/firefox/browser 6005 true tab
+dragong     6212    6005  6 15:32 ?        00:00:06 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 36061 -prefMapSize 217695 -jsInitLen 277276 -parentBuildID 20220623063721 -appDir /usr/lib/firefox/browser 6005 true tab
+dragong     6214    6005  0 15:32 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 36061 -prefMapSize 217695 -jsInitLen 277276 -parentBuildID 20220623063721 -appDir /usr/lib/firefox/browser 6005 true tab
+dragong     6238    6005  0 15:32 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 36061 -prefMapSize 217695 -jsInitLen 277276 -parentBuildID 20220623063721 -appDir /usr/lib/firefox/browser 6005 true tab
+dragong     6283    6005  0 15:33 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 36116 -prefMapSize 217695 -jsInitLen 277276 -parentBuildID 20220623063721 -appDir /usr/lib/firefox/browser 6005 true tab
+dragong     6392    5058  0 15:34 pts/0    00:00:00 /home/dragong/Desktop/cyl-120L030309/week01/helloworld
+dragong     6427    2125  0 15:34 ?        00:00:00 /bin/sh -c "/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh" 5058 6392
+dragong     6428    6427  0 15:34 ?        00:00:00 /bin/bash /usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh 5058 6392
+dragong     6432    6428  0 15:34 ?        00:00:00 sleep 1
+dragong     6433    5097  0 15:34 pts/1    00:00:00 sh kill.sh
+dragong     6434    6433  0 15:34 pts/1    00:00:00 ps -ef
